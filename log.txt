@@ -1,3 +1,7 @@
+dqn_cartpole_diff_memory_tough_remember_limit2_sched -> limit episodes to 10000. Decrease LR and increase EPSILON with each level up
+|
+|
+|
 dqn_cartpole_diff_memory_tough_remember_limit2 -> limit memories per episode to 4000
 |
 |
