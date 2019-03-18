@@ -1,0 +1,29 @@
+dqn_cartpole_diff_memory_tough_remember_limit2 -> limit memories per episode to 4000
+|
+|
+|
+dqn_cartpole_diff_memory_tough_remember_limit1 -> limit memories per episode to 2000
+|
+|
+|
+dqn_cartpole_diff_memory_tough_remember_limit  -> limit memories per episode to 500
+|
+|
+|
+|---dqn_cartpole_diff_memory_tough_low_LR -> LR = 1e-4
+|
+dqn_cartpole_diff_memory_tough -> Different memory for terminal and non-terminal experiences
+|                                 Batch uses more bad memories than good memories
+|
+|
+dqn_cartpole_diff_memory -> Different memory for terminal and non-terminal experiences
+|                           Batch uses more good memories than bad memories 
+|
+|
+dqn_cartpole_sparse_reward -> Reward is either +1 (non-terminal) or -1(terminal) 
+|
+|
+|
+dqn_cartpole -> Cartpole without episode limit. 
+                Uses custom reward depending on position and velocity. 
+                Reward is awarded at every step.
